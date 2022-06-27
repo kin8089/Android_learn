@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/lname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="200dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="아이디"/>
+
+    <EditText
+        android:id="@+id/lpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:hint="비밀번호"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:text="로그인"/>
+
+    <TextView
+        android:onClick="goToRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="계정이 없으신가요?"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textAlignment="center"
+        android:textSize="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

@@ -1,0 +1,56 @@
+홈 -> 메인2 액티비티로
+
+프로필 -> 개인정보 출력 및 수정
+
+
+하단 바 -> 취업, 생계, 출산 
+
+상단 뷰 -> 현재 많이 지원하는 내용
+
+카테고리 -> 아이콘 + 이름 
+
+
+
+
+
+추가
+
+1. 어플 제목 생성
+
+2. 첫 페이지 애니메이션 + ui 변경
+
+3. 챗봇 연동 확인
+
+4. 챗봇 ui 변경
+
+5. 메인페이지(로그인 후)
+
+6. 하단바 클릭 시 화면 구성
+
+
+
+ssh ec2-chat
+
+conda activate chat
+
+cd file
+
+cd Good
+
+python manage.py runserver 0:8000
+
+서버 ip -> et2 인스턴스에서 켤때마다 확인
+
+AI-BigData2-2Jo
+
+https://projectbit1.signin.aws.amazon.com/console
+
+
+putty 
+
+puttygen 에서
+기존 pem 키 파일을 Load 후 private 키 파일로 생성
+
+putty 에서
+호스트 네임에 ubuntu@퍼블릭 IPv4 DNS 주소
+입력하고 ssh -> auth 에서 아까 생성한 키 파일 browser로 선택 후 실행
